@@ -995,11 +995,3 @@ else{
 // titulo.setAttribute("tabindex","0");
 // titulo.setAttribute("title","este es un texto editable");
 
-let rta;
-
-do{
-	rta = prompt('Quiere agregar una tarea a la lista?(s/n)');
-	if(rta=='s'){
-		crearTarea();
-	}
-}while(rta === 's');
